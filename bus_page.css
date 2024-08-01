@@ -1,0 +1,58 @@
+/* Think of this as a hierachy */
+body{
+    margin: 0;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #028ac9;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px
+
+}
+
+header h1{
+    color: white;
+    
+    
+}
+/* border-radius allows you to round the image by a specified number of pixels */
+header img{
+    border-radius: 170px;
+    width: 350px;
+    height: 350px;
+    border: 20px solid #483194;
+    
+
+
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    /* 0 up and down and auto for left and right */
+
+    padding: 0px 20px 20px 100px;
+
+
+}
+
+main img{
+    max-width: 100%;
+    /* use % so it si sthe same as the main-max width and height scales proportionally */
+}
+
+h2{
+    color: #0a93fc
+}
+
+a:hover{
+    color: #0a93fc;
+
+}
+/* this is for color change when we hover over the link */
+
+p.caption{
+    color: #999999;
+    margin-top: 0;
+}
