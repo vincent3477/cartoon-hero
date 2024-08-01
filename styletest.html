@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>style test</title> <!-- Below iis the style ruleset, this is all in CSS-->
+    <link rel = "stylesheet" type = "text/css" href = "test.css">
+        
+    </style> <!-- Span allows you to separate one part of the  header text from other rules-->
+</head>
+<body> <!-- the h2 rule is applied to all h2 elements except for heading 2-1 since its individual style overrrides the CSS ruleset. You can also declare classes so certain headers with that are derived from a class will have a certain rule set.-->
+    <h1>Heading 1 - 1</h1>
+    <h1 class = "teal uppercase">Heading 1 - 2</h1>
+    <h1 class="teal">Heading 1 - 3</h1>
+    <h2 style = "color: green; font-size: 25px;">Heading 2 - 1</h1>
+    <h2 class="teal">Heading<span>2 - 2</span></h1>
+    <h2>Heading 2 - 3</h1>
+</body>
+
+</html>
